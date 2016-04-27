@@ -103,7 +103,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 ## Task 1: design the application architecture and protocols
 
 | #  | Topic |
-|   | --- |
+| --- | --- |
 |Question | How can we represent the system in an **architecture diagram**, which gives information both about the Docker containers, the communication protocols and the commands? |
 | | *Insert your diagram here...* |
 |Question | Who is going to **send UDP datagrams** and **when**? |
