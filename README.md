@@ -1,10 +1,10 @@
-# Teaching-HEIGVD-RES-2016-Labo-DockerMusic
+# Teaching-HEIGVD-RES-2017-Labo-DockerMusic
 
 ## Admin
 
-* You can work in teams of two students.
+* Every student must deliver a complete solution.
 * You should fork and clone this repo. You should also configure an `upstream` repo, to be able to pull updates that we will publish in this original repo.
-* There will not be a "full" lab grade for this long lab. However, there will *at least* one point to gain for the "salami" TE grade. Also, the skills that you will learn during this lab will be necessary for subsequent labs.
+* There will not be a "full" lab grade for this long lab, but there will be one point to gain for the "salami" TE grade (i.e. it is one of the "challenges"). Also, the skills that you will learn during this lab will be necessary for subsequent labs.
 * We expect that you will have more issues and questions than with other labs (because we have a left some questions open on purpose). Please ask your questions on telegram or in the forum, so that everyone in the class can benefit from the discussion.
  
 ## Objectives
@@ -191,16 +191,3 @@ Please be careful to adhere to the specifications in this document, and in parti
 Also, we have prepared two directories, where you should place your two `Dockerfile` with their dependent files.
 
 Have a look at the `validate.sh` script located in the top-level directory. This script automates part of the validation process for your implementation (it will gradually be expanded with additional operations and assertions). As soon as you start creating your Docker images (i.e. creating your Dockerfiles), you should try to run it.
-
-
-## Schedule
-
-| Date | AM/PM | Activity
-| :--: | :---: | --------
-|27.04.2016 | AM | Orientation and requirements; activity 1.
-|27.04.2016 | PM | Activity 2
-|04.05.2016 | AM | We will ask some students to **do a demo** of what they have achieved so far. You should be ready to start a Musician Docker container and prove that UDP datagrams are emitted. We will also have a **guest speaker** during the morning session.
-|04.05.2016 | PM | Activities 3 and 4
-|11.05.2016 | AM | There will be a **written test** on everything that we have studied so far (travail écrit).
-|11.05.2016 | PM | Validation and demonstrations.
-
