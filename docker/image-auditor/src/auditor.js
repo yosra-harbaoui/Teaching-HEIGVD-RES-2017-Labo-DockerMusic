@@ -27,7 +27,7 @@ socket.on('message', function(msg , source){
                             break;
             case 'pouet' : instrument = 'trumpet';
                             break;
-            case 'trulu' : instrument = 'trumpet';
+            case 'trulu' : instrument = 'flute';
                             break;
             case 'gzi-gzi' : instrument = 'violin';
                             break;
