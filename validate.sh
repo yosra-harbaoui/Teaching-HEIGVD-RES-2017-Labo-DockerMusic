@@ -43,7 +43,11 @@ echo ""
 echo "*** Starting validation..."
 echo ""
 git remote -v | tee check.log
-docker run --name res_validation -v /var/run/docker.sock:/var/run/docker.sock res/validate-music | tee -a check.log
+#if exctuting on Linux/Mac OS
+#docker run --name res_validation -v /var/run/docker.sock:/var/run/docker.sock res/validate-music | tee -a check.log
+
+#if executing on Windows
+docker run --name res_validation -v //var/run/docker.sock:/var/run/docker.sock res/validate-music | tee -a check.log 
 
 
 
